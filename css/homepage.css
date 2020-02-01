@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* universal rules*/
+
+
+/* header rules*/
+
+header
+{
+    background-color: #000000;
+    color: #ffffff;
+   
+
+}
+
+header > nav > ul > li
+{
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: right;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+}
+
+/* main */
+main
+{
+    height: 90vh;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+#enjoycolor
+{
+    color: #FFB791 ;
+}
+
+main a
+{
+    border: solid #555555;
+    background-color: #333333;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 32px;
+
+}
+
+
+
+#overlay
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 90%;
+    background-Image: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    Background-size: cover;
+    background-position: center center;  
+    opacity: 0.9;
+
+}
+
+#padding
+{
+    padding: 200px 0;
+}
+/* section with two divisions*/
+#twogrids
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #333333;
+    color: #ffffff;
+    height: 70vh;
+}
+
+#twogrids  a
+{
+   
+    background-color: #E2DFDE;
+    color: #000000;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 32px;
+}
+
+#twogrids  img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#history
+{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#thehistorycolor
+{
+    color:#FFB791;
+}
+
+/* section with three divisions*/
+#threegrids 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    text-align: center;
+    height: 30vh;
+    padding: 5px 50px;
+   
+
+
+
+}
+
+section > div > h3
+{
+    padding-bottom: 25px;
+}
+
+#freemealcolor
+{
+    background-color: #FFB791;
+}
+
+
+/*footer*/
+footer
+{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
